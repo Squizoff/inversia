@@ -7,7 +7,7 @@ local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
 local Camera = Workspace.CurrentCamera
 
-local guiVisible = false -- Флаг для видимости GUI, по умолчанию меню закрыто
+local guiVisible = true -- Флаг для видимости GUI, по умолчанию меню закрыто
 
 -- Создаем GUI
 local screenGui = Instance.new("ScreenGui", CoreGui)
